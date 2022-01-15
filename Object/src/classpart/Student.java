@@ -7,6 +7,13 @@ public class Student {
 	int grade;
 	String address;
 	
+	public Student() {}
+	//생성자가 하나라도 있으면 default생성자 제공되지 않는다. 
+	public Student(int id, String name) {
+		studentID=id;
+		studentName=name;
+	}
+	
 	public void showStudentInfor() {
 		System.out.println(studentName+","+address);
 		
@@ -21,6 +28,7 @@ public class Student {
 //	public static void main(String[] args) {
 //		Student studentLee=new Student();
 //		studentLee.studentName="권지수";
+//		studentLee.studentID=100;
 //		studentLee.address="서울시 서초구 서초동";
 //		studentLee.showStudentInfor();
 //	}
