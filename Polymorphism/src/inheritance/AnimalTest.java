@@ -65,7 +65,7 @@ public class AnimalTest {
 		}
 		else if(animal instanceof Tiger) {
 			Tiger tiger=(Tiger)animal;
-			tiger.hunting();;
+			tiger.hunting();
 		}
 		else if(animal instanceof Eager) {
 			Eager eager=(Eager)animal;
