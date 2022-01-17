@@ -18,4 +18,12 @@ public class CompleteCalc extends Calculator{
 	public void showInfo() {
 		System.out.println("구현완료");
 	}
+
+	@Override
+	public void description() {
+	
+		System.out.println("완벽한 계산기 입니다.");
+	}
+	
+	
 }
