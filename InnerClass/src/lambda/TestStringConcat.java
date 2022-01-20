@@ -12,7 +12,9 @@ public class TestStringConcat {
 		concat.makeStirng("hello","java");
 		
 		//위의 람다식이랑 같다.
-//		StringConcat concat2=new 
+//		StringConcat concat2=new StringConcat(){
+		
+		//};
 	}
 
 }
