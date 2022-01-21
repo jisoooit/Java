@@ -10,7 +10,6 @@ public class CustomerTest {
 		Sell sellC=customer;
 		sellC.Sell();
 		
-		
 		//인스턴스의 메소드, 오버라이딩된 메소드가 불린다.
 		customer.order();
 		buyC.order();

@@ -22,6 +22,7 @@ public class Player {
 	public void play(int count) {
 		level.go(count);
 	}
+
 	
 	
 	
